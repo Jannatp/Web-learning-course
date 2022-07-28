@@ -1,7 +1,39 @@
+:root{
+    --main-color: #0096FF;
+    --dark-text:#777777;
+    --heading: #1D1D1D;
+    --small-heading:#4A4A4A;
+
+}
+
+
 body {
     font-family: 'Kanit', sans-serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Yanone Kaffeesatz', sans-serif;
     scroll-behavior: smooth;
+ }
+p {
+        color: var(--dark-text);
     }
+.title{
+        color: var(--heading);
+        font-size: 3rem;
+       
+        font-weight: 600;
+ }
+.content h4{
+    color: var(--small-heading);
+    font-weight: 600;
+}
+.content h6{
+    color: var(--main-color);
+    font-weight: 600;
+}
+ #about{
+    background:  #e0eef5;
+}
+.companies img{
+    width: 120px;
+}
